@@ -1,39 +1,48 @@
 
 Lab - Entering Commands
 ==========
-Follow the instructions line-by-line.  
+Follow the instructions line-by-line.
 
-* Type in the commands as is, but ignore the beginning prompt.  
-* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
+* Type in the commands as is, but ignore the beginning prompt.
+* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.
 * "No output" or "nothing happens" are valid answers to any of the questions.
 ==========
 
 
 
 ==========
-1. Open Terminal.  Type:
+1. Open Terminal.  Type: 
 
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+Adlm				Public
+Applications			QLData
+Desktop				Things
+Documents			ipe.properties
+Downloads			isus
+Library				lab_01_commandline_01
+Movies				pslog_20200109_170408.log
+Music				pymel.log
+Pictures			xgen
 
 
 
 ==========
-2a. Type: 
+2a. Type:
 
 $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+It shows Downloads, Desktop, and Documents
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+  Desktop/   Documents/ Downloads/
 
 
 ==========
