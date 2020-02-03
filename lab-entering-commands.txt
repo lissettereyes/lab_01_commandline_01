@@ -11,7 +11,7 @@ Follow the instructions line-by-line.
 
 
 ==========
-1. Open Terminal.  Type: 
+1. Open Terminal.  Type:
 
 $ ls<ENTER>
 
@@ -36,8 +36,7 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-It shows Downloads, Desktop, and Documents
-
+Nothing happens
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
@@ -49,7 +48,7 @@ It shows Downloads, Desktop, and Documents
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
-
+ls: D: No such file or directory
 
 ==========
 3.  Type:
@@ -59,6 +58,8 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
+drwxrwxrwx  15 student  staff    510 Jan  9 17:04 Adobe
+drwxr-xr-x   3 student  staff    102 Aug 22  2016 Arduino
 
 
 ==========
@@ -69,7 +70,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+.			Arduino			Native Instruments	bws.png
+..			Avid Projects		Pd			iChats
 
 ==========
 5.  Type:
@@ -79,7 +81,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
-
+ls -a Documents
 
 ==========
 6.  Type:
@@ -88,7 +90,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -99,6 +101,8 @@ $ ls /Vol<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
+Macintosh HD		firmwaresyncd.uA9uSu
+v314-ent-002:~ student$
 
 
 ==========
@@ -108,37 +112,37 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexist: No such file or directory
+v314-ent-002:~ student$
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+Up
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
-
+-l and D
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+tab
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+Volumes
 
 
 ==========
@@ -148,6 +152,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
+-bash: foo: command not found
 
 
 
@@ -158,6 +163,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
+-bash: foo: command not found
 
 
 
@@ -168,3 +174,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+The command is ls, the flag is -a, the argument is the Desktop, and the prompt is $
