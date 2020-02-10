@@ -181,7 +181,7 @@ v314-ent-002.local
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+pwd
 
 ==========
 17b. If you're not in the right directory, type the following command:
@@ -204,7 +204,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
-
+mkdir -p pineapple/orange/strawbery/lemon
 
 ==========
 19. Make another directory called aardvark.
@@ -212,7 +212,7 @@ Use only one command to make all of these new directories.  Write what command y
 Write the command you used to create the directory below:
 ----------
 
-
+mkdir aardvark
 
 ==========
 20. List the files and directories in the current directory using the long format.
