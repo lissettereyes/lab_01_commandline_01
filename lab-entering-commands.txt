@@ -21,7 +21,7 @@ Adlm				Public
 Applications			QLData
 Desktop				Things
 Documents			ipe.properties
-Downloads			isus
+Downloads			issues
 Library				lab_01_commandline_01
 Movies				pslog_20200109_170408.log
 Music				pymel.log
